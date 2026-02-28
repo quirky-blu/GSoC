@@ -16,7 +16,7 @@ This environment is based on a paper "AutoCodeRover: Autonomous Program Improvem
 I may later add the [auto-code-rover repo](https://github.com/nus-apr/auto-code-rover) to my project as a dependency or publish a docker image of it on the web, currently I have cloned the repository and working within it. The steps to reproduce are as follows :
 
 ### Ollama Installation
-Please install [ollama](https://ollama.com/) and download the corresponding models with ollama (e.g. `ollama pull mistral`).
+Please install [ollama](https://ollama.com/) and download the corresponding models with ollama (e.g. `ollama pull llama3`).
 
 ### Download Docker Desktop 
 Since my setup is  ollama in host + ACR in its container, I follow the recommendation to install Docker Desktop on the host, in addition to the Docker Engine.
