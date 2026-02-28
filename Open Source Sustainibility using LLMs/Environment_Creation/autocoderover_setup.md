@@ -22,14 +22,14 @@ Please install [ollama](https://ollama.com/) and download the corresponding mode
 Since my setup is  ollama in host + ACR in its container, I follow the recommendation to install Docker Desktop on the host, in addition to the Docker Engine.
 Docker Desktop contains Docker Engine, and also has a virtual machine which makes it easier to access the host ports from within a container. With Docker Desktop, this setup will work without additional effort.
 
-Download Docker Desktop and setup accopridng to instructions provided [here](https://docs.docker.com/desktop/install/windows-install/)
+Download Docker Desktop and setup according to instructions provided [here](https://docs.docker.com/desktop/install/windows-install/)
 
 ### Git Clone
 Please clone [my fork of the repository](https://github.com/sarrah-basta/auto-code-rover-for-llama37b.git) instead of the original as I have made some fixes to help it work better with locally hosted models especially llama3 7B using ollama. Without these fixes the correct answers will not be obtained.
 
 ```
 git clone https://github.com/sarrah-basta/auto-code-rover-for-llama37b.git
-cd auto-code-rover
+cd auto-code-rover-for-llama37b
 ```
 
 ### Setup environment
